@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true"
+    android:scrollbars="vertical"
+    android:scrollbarStyle="outsideOverlay">
+
+    <android.support.constraint.ConstraintLayout
+    android:id="@+id/summary_page"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?android:attr/windowBackground"
+    android:orientation="vertical"
+    android:clipChildren="false"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal">
+
+<HorizontalScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:scrollbars="vertical">
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/pie_chart_title"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="8dp"
+            android:gravity="center"
+            android:text="@string/meal_summary"
+            android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/pie_chart_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/period_consumption" />
+        <com.github.mikephil.charting.charts.PieChart
+            android:id="@+id/pie_chart"
+            android:layout_width="match_parent"
+            android:layout_height="450dp" />
+
+        <TextView
+            android:id="@+id/hor_chart_title"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="8dp"
+            android:gravity="center"
+            android:text="@string/total_co2_emission"
+            android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+            android:textSize="18sp" />
+        <!--<TextView-->
+            <!--android:id="@+id/hor_chart_content"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:textSize="15dp"-->
+            <!--android:gravity="center"-->
+            <!--android:text="This chart shows your 7 days CO2 emissions" />-->
+        <TextView
+            android:id="@+id/total_emission"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="15dp"
+            android:gravity="center" />
+        <!--<com.github.mikephil.charting.charts.HorizontalBarChart-->
+            <!--android:id="@+id/bar_chart"-->
+            <!--android:layout_height="600dp"-->
+            <!--android:layout_width="386dp"-->
+            <!--android:layout_below="@id/pie_chart"-->
+            <!--android:layout_marginBottom="50dp"/>-->
+    </LinearLayout>
+
+</HorizontalScrollView>
+   </android.support.constraint.ConstraintLayout>
+
+</ScrollView>

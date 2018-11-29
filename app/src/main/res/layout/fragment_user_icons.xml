@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="ca.sfu.greenfoodchallenge.ui.SecondPledgeFragment" >
+
+    <TextView
+        android:id="@+id/textViewIcons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/choose_icon"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold"
+        android:textSize="24dp"
+        android:textAlignment="center" />
+
+    <TableLayout
+        android:id="@+id/iconTable"
+        android:layout_width="349dp"
+        android:layout_height="528dp"
+        android:layout_alignLeft="@id/textViewIcons"
+        android:layout_below="@id/textViewIcons"
+        android:layout_marginLeft="17dp"
+        android:layout_marginTop="9dp"
+        android:stretchColumns="*">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="111dp"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <ImageButton
+                android:id="@+id/icon1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+
+                android:src="@mipmap/ic_app_round" />
+
+            <ImageButton
+                android:id="@+id/icon2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@android:color/transparent"
+                android:background="@drawable/round_buttons"
+                android:src="@mipmap/ic_launcher_round" />
+
+            <ImageButton
+                android:id="@+id/icon3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:src="@drawable/icon7" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <ImageButton
+                android:id="@+id/icon4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:src="@drawable/icon1" />
+
+            <ImageButton
+                android:id="@+id/icon5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:src="@drawable/icon2" />
+
+            <ImageButton
+                android:id="@+id/icon6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:src="@drawable/icon3" />
+        </TableRow>
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <ImageButton
+                android:id="@+id/icon7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:src="@drawable/icon4" />
+
+            <ImageButton
+                android:id="@+id/icon8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:src="@drawable/icon5" />
+
+            <ImageButton
+                android:id="@+id/icon9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:src="@drawable/icon6" />
+        </TableRow>
+    </TableLayout>
+
+
+    <Button
+        android:id="@+id/selectIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/iconTable"
+        android:layout_alignEnd="@+id/iconTable"
+        android:text="@string/select"
+        android:textColor="@android:color/background_light"
+        android:background="@drawable/round_buttons"/>
+
+</RelativeLayout>

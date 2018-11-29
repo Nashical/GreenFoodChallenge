@@ -1,0 +1,135 @@
+<resources>
+    <string name="app_name">greenfoodchallenge</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="choose_icon">Choose an Icon</string>
+    <string name="save">Save</string>
+    <string name="saved">Saved!</string>
+    <string name="select">Select</string>
+    <string name="delete_pledge">Delete Pledge</string>
+    <string name="deleted">Deleted!</string>
+    <string name="non_zero_number">Please enter a non-zero positive value</string>
+    <string name="anonymous">Anonymous</string>
+    <string name="icon_resource_prefix">android.resource://ca.sfu.greenfoodchallenge.ui/</string>
+    <string name="total_co2_emission">Total CO2 emissions</string>
+    <string name="meal_name_required">Meal name required</string>
+    <string name="comsumption_meats">Consumed grams of meats</string>
+    <string name="intro_about">\tThe Green Food Challenge application aims to help people collectively reduce greenhouse gas emissions in Metro Vancouver.\n\n
+Since 2011 Vancouver has spearheaded the Greenest CIty Action Plan with the goal of becoming the greenest city in the world by 2020.
+        Of the plan’s 10 specific goals, one is to reduce its carbon footprint by 33% compared to 2006 levels.\n</string>
+    <string name="first_title_about">WHAT IS A CARBON FOOTPRINT?\n</string>
+    <string name="footprint_about">\tA carbon footprint is the amount of carbon dioxide and other carbon compounds produced to directly or indirectly support the human activities of a person or group.
+        This footprint is most often described in CO2e (CO2 equivalents) and measured in kilograms or tonnes.
+        In 2015, regional emissions in Metro Vancouver were projected to be 14.9 million tonnes of CO2e, or between 6 and 8 tonnes per person.
+        It is generally estimated that global emissions must be reduced to approximately 2 tonnes per capita by 2050.\n</string>
+    <string name="second_title_about">WHAT CONTRIBUTES TO GREENHOUSE GASES?\n</string>
+    <string name="contributes_about">\tThere are many CO2e contributors to our carbon footprint, including transportation and buildings (heating, power, etc.).
+        Many Municipalities, including Vancouver, are currently undertaking measures to reduce their footprints in ways such as promoting public transit over personal vehicles,
+        or changing heating systems from natural gas to hydroelectric.\n</string>
+    <string name="third_title_about">CARBON IMPACT OF FOOD\n</string>
+    <string name="impact_about">\tFood is generally under-reported as a source of CO2e. For instance in Europe, agriculture contributes to 10% of the carbon footprint. In particular, livestock such as sheep and cows produce methane and contribute more to CO2e than any other animals.
+        According to the European Commission, about 85% of methane emissions come from livestock digestion.\n
+Certain foods take more CO2e to produce than others. The table below shows relative CO2e costs for various types of food.\n</string>
+    <string name="fourth_title_about">GREEN FOOD CHALLENGE\n</string>
+    <string name="challenge_about">\tThis application was developed with the goal of raising awareness and promoting positive behaviour change by running the Green Food Challenge. In this challenge people will track their meals daily and record the quantity of meat and alternatives they are consuming.
+        With this data, participants will be able to see what their projected yearly carbon ‘foodprint’ will be, based on a weekly average of their meals.
+        Through the recommendations tab users will receive suggestions on how to make their diet more ‘green’, and see how many tonnes of CO2e that they, and the city of Vancouver, could save by making these adjustments.
+        By encouraging CO2e-friendly meals and showing what a difference they could make, it is hoped that participants learn to sustainably change their eating habits towards a lighter footprint, bringing us closer to being the greenest city in the world.\n</string>
+    <string name="editMeal">Edit</string>
+    <string name="title_activity_edit_meal">EditMealActivity</string>
+    <string name="change_plans">Change Plans</string>
+    <string name="title_activity_main2">Main2Activity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="first_name">First Name</string>
+    <string name="last_initial">Last Initial</string>
+    <string name="municipality">Municipality</string>
+    <string name="pledge_amount">CO2e Pledge Amount (tonnes)</string>
+    <string name="municipalities_prompt">Choose your Municipality</string>
+    <string name="default_firstname">Anonymous</string>
+    <string-array name="municipalities_array">
+        <item>Choose your Municipality</item>
+        <item>City of Abbotsford</item>
+        <item>Village of Anmore</item>
+        <item>Village of Belcarra</item>
+        <item>Bowen Island Municipality</item>
+        <item>City of Burnaby</item>
+        <item>City of Coquitlam</item>
+        <item>Corporation of Delta</item>
+        <item>City of Langley</item>
+        <item>Township of Langley</item>
+        <item>Village of Lions Bay</item>
+        <item>District of Maple Ridge</item>
+        <item>City of New Westminster</item>
+        <item>City of North Vancouver</item>
+        <item>District of North Vancouver</item>
+        <item>City of Pitt Meadows</item>
+        <item>City of Port Coquitlam</item>
+        <item>City of Port Moody</item>
+        <item>City of Richmond</item>
+        <item>City of Surrey</item>
+        <item>Tsawwassen</item>
+        <item>City of Vancouver</item>
+        <item>District of West Vancouver</item>
+        <item>City of White Rock</item>
+    </string-array>
+    <string-array name="proteins_array">
+        <item>Choose a Protein</item>
+        <item>Beef</item>
+        <item>Pork</item>
+        <item>Chicken</item>
+        <item>Fish</item>
+        <item>Eggs</item>
+        <item>Beans</item>
+        <item>Vegetables</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="social">Social</string>
+    <string name="share">Share</string>
+    <string name="shared_pledges">Shared Pledges</string>
+    <string name="my_pledge">My Pledge</string>
+    <string name="profile">Profile</string>
+    <string name="about">About</string>
+    <string name="recommendations">Recommendations</string>
+    <string name="calendar">Calendar</string>
+    <string name="home">Home</string>
+    <string name="my_diet">My Diet</string>
+    <string name="this_is_your_weekly_recomended">Recommended Meal Plan</string>
+    <string name="restaurant_meal">Meal Ideas</string>
+    <string name="sign_out">Sign out</string>
+    <string name="meal_summary">Meal Summary</string>
+    <string name="period_consumption">Your 7 Day Meal Consumption in grams</string>
+
+    <string name="welcome_username">Welcome </string>
+    <string name="you_have_pledged">You have pledged: </string>
+    <string name="number_of_pledges">Number of pledges: </string>
+    <string name="average_pledge">Average pledge is: </string>
+    <string name="total_co2e_pledged">Total CO2e pledged is:  </string>
+    <string name="x_homes_powered_per_year"> homes powered per year</string>
+    <string name="which_is_equivalent_to">Which is equivalent to CO2e from</string>
+    <string name="x_lb_of_coal_burned"> lb of coal burned</string>
+    <string name="x_trees_planted"> trees planted</string>
+    <string name="user_icon">User_icon</string>
+    <string name="TWITTER_KEY">BtXiVYYjMorEVhMmgY8U1cHup</string>
+    <string name="TWITTER_SECRET">kkbh6CMnj7isVAonmsKD9LkkHT1EjjYIauPKhE7YiJeiPUAagI</string>
+    <string name="x_km_driven_in_a_car"> km driven in a car</string>
+
+    <string name="title_activity_loading_user_data">LoadingUserDataActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="loading">Loading...</string>
+    <string name="name_here">Please enter name here</string>
+    <string name="restaurant_name_here">Please enter Restaurant name here</string>
+    <string name="short_description_here">Please enter a short description here</string>
+    <string name="upload_in_progress">Upload in progress</string>
+    <string name="no_municipality_selected">No municipality selected.</string>
+    <string name="upload_successfull">Upload Successful</string>
+    <string name="no_restaurant_specified">no restaurant specified</string>
+    <string name="empty_description">Empty description</string>
+
+</resources>
+
