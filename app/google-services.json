@@ -1,35 +1,35 @@
 {
   "project_info": {
-    "project_number": "506089853780",
-    "firebase_url": "https://greenfoodchallenge-53c54.firebaseio.com",
-    "project_id": "greenfoodchallenge-53c54",
-    "storage_bucket": "greenfoodchallenge-53c54.appspot.com"
+    "project_number": "<your projct number>",
+    "firebase_url": "https://<your firebase database>.firebaseio.com",
+    "project_id": "<your project id>",
+    "storage_bucket": "<you storage bucket>"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:506089853780:android:90b50296fa5ba0a3",
+        "mobilesdk_app_id": "<your mobile sdk app id>",
         "android_client_info": {
           "package_name": "ca.sfu.greenfoodchallenge.ui"
         }
       },
       "oauth_client": [
         {
-          "client_id": "506089853780-jamnvj735m30hcqgn98t51als017mjgj.apps.googleusercontent.com",
+          "client_id": "<your client id>",
           "client_type": 1,
           "android_info": {
             "package_name": "ca.sfu.greenfoodchallenge.ui",
-            "certificate_hash": "c323b01a2ac489d13495722b88c0bbd507c1d061"
+            "certificate_hash": "<your certificte hash>"
           }
         },
         {
-          "client_id": "506089853780-1b9kjjme2gkbv26o2npu9udvdgmeb9ll.apps.googleusercontent.com",
+          "client_id": "<your client id>",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyAwpTrl980P5a8iFFbGZJxcUaZDRXAaPxs"
+          "current_key": "<your api key>"
         }
       ],
       "services": {
@@ -40,7 +40,7 @@
           "status": 2,
           "other_platform_oauth_client": [
             {
-              "client_id": "506089853780-1b9kjjme2gkbv26o2npu9udvdgmeb9ll.apps.googleusercontent.com",
+              "client_id": "<your client id>",
               "client_type": 3
             }
           ]
